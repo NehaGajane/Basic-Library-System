@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel = "stylesheet" href = "./stylesheet.css">
+</head>
+<body>
+    <div class = "nav">
+        <div id = "logo">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169 57v430h78V57h-78zM25 105v190h46V105H25zm158 23h18v320h-18V128zm128.725 7.69l-45.276 8.124 61.825 344.497 45.276-8.124-61.825-344.497zM89 153v270h62V153H89zm281.502 28.68l-27.594 11.773 5.494 12.877 27.594-11.773-5.494-12.877zm12.56 29.433l-27.597 11.772 5.494 12.877 27.593-11.772-5.492-12.877zm12.555 29.434l-27.594 11.77 99.674 233.628 27.594-11.773-99.673-233.625zM25 313v30h46v-30H25zm190 7h18v128h-18V320zM25 361v126h46V361H25zm64 80v46h62v-46H89z"></path></svg>
+        </div>
+        <div class = "menu">
+                <li><a href = "#books">Books</a></li>
+                <li><a href = "#register">Register</a></li>
+                <li><a href = "">Contact Us</a></li>
+                <li><a href = "">Sign In</a></li>
+        </div>
+    </div>
+    <div id = "books" class = "card">
+        <table border = "1">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availabity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan = "1">1</td>
+                    <td><a href = "" target = "_blank">The Song of Achilles</a><br>
+                        <table class = "details" border = "1">
+                            <tr>
+                                <td>Publishing Date: 2011</td>
+                            </tr>
+                            <tr>
+                                <td>No. of Pages: 408 </td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9780062060624</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan = "1">Madeline Miller</td>
+                    <td rowspan = "1">Historical Fiction</td>
+                    <td rowspan = "1">Available</td>
+                </tr>
+                
+                <tr>
+                    <td rowspan = "1">2</td>
+                    <td><a href = "" target = "_blank">Hidden Pictures</a><br>
+                        <table class = "details" border = "1">
+                            <tr>
+                                <td>Publishing Date: 2022</td>
+                            </tr>
+                            <tr>
+                                <td>No. of Pages: 372 </td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9781250819345</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan = "1">Jason Rekulak</td>
+                    <td rowspan = "1">Horror</td>
+                    <td rowspan = "1">Available</td>
+                </tr>
+
+                <tr>
+                    <td rowspan = "1">3</td>
+                    <td><a href = "" target = "_blank">The Girl with the Dragon Tattoo</a><br>
+                        <table class = "details" border = "1">
+                            <tr>
+                                <td>Publishing Date: 2005</td>
+                            </tr>
+                            <tr>
+                                <td>No. of Pages: 480 </td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9780670069019</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan = "1">Stieg Larsson, <br> Reg Keeland</td>
+                    <td rowspan = "1">Fiction</td>
+                    <td rowspan = "1">Available</td>
+                </tr>
+
+                <tr>
+                    <td rowspan = "1">4</td>
+                    <td><a href = "" target = "_blank">The Silent Patient</a><br>
+                        <table class = "details" border = "1">
+                            <tr>
+                                <td>Publishing Date: 2019</td>
+                            </tr>
+                            <tr>
+                                <td>No. of Pages: 336 </td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9781250301697</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan = "1">Alex Michaelides</td>
+                    <td rowspan = "1">Thriller</td>
+                    <td rowspan = "1">Available</td>
+                </tr>
+
+                <tr>
+                    <td rowspan = "1">5</td>
+                    <td><a href = "" target = "_blank">Rebecca</a><br>
+                        <table class = "details" border = "1">
+                            <tr>
+                                <td>Publishing Date: 2013</td>
+                            </tr>
+                            <tr>
+                                <td>No. of Pages: 408 </td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 9780316323703</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan = "1">Daphne du Maurier</td>
+                    <td rowspan = "1">Classic</td>
+                    <td rowspan = "1">Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card">
+        <form action = "" method="post">
+            <div id = "register">
+                
+             <h1>Register</h1>
+                <label for = "name">Name:</label>
+                <input type = "text" id = "name" name = "name" required> <br>
+
+                <label for = "lastName">Last Name:</label>
+                <input type = "text" id = "lastName" name = "lastName" required> <br>
+                
+                <label for = "email">Email:</label>
+                <input type = "text" id = "email" name = "email" required> <br>
+
+                <label for = "date">Date of Birth:</label>
+                <input type = "date" id = "date" name = "date" required> <br>
+
+                <label for = "age">Age:</label>
+                <input type = "number" id = "age" name = "age" min="5" max="100" 
+                    titel = "Please enter a valid age" required> <br>
+                
+                <label for = "password">Password:</label>
+                <input type = "text" id = "password" name = "password" placeholder="Enter your password" required> <br>
+                
+                <label for = "comfirm">Confirm Password:</label>
+                <input type = "text" id = "comfirm" name = "comfirm" placeholder="Confirm password" required> <br>
+
+                <button class = "button" type = "submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

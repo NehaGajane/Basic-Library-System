@@ -1,0 +1,74 @@
+.nav {
+    display: flex;
+    background-color: #cdbeee;
+    margin: -10px;
+    color: white;
+    position: sticky;
+    padding: 1em;
+    top:0;
+    z-index:1;
+}
+
+a {
+    color: rgb(162, 24, 167);
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.menu li {
+    padding: 5px 14px; 
+}
+
+.card {
+    width:650px;
+    position: relative;
+    background-color: #dfe3e9;
+    display: flex;
+    padding: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border: 2px solid #b0b8c5;
+    border-collapse: collapse;
+}
+
+.details {
+    border-color: #c3cad4;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    width:100%;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 1em;
+}
+
+button{
+    height: 2em;
+    border: 1px;
+    border-color: black;
+    background-color: #adc4e4;
+    cursor: pointer;
+}
+
+tbody {
+    text-align: center;
+}
+
+#logo {
+    font-size:x-large;
+}
